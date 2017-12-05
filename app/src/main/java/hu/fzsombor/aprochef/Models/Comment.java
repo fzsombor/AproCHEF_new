@@ -12,20 +12,34 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+*/
 
-package hu.fzsombor.aprochef;
+package hu.fzsombor.aprochef.Models;
 
-import org.junit.Test;
+public class Comment {
+    private Author author;
+    private String text;
+    private Object timestamp;
 
-import static org.junit.Assert.assertEquals;
+    public Comment() {
+        // empty default constructor, necessary for Firebase to be able to deserialize comments
+    }
 
-/**
- * To work on unit tests, switch the Test Artifact in the Build Variants view.
- */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+    public Comment(Author author, String text, Object timestamp) {
+        this.author = author;
+        this.text = text;
+        this.timestamp = timestamp;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public Object getTimestamp() {
+        return timestamp;
     }
 }

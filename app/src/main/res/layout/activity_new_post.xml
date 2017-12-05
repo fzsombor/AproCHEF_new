@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".NewPostActivity">
+
+
+        <ImageView
+            android:id="@+id/new_post_picture"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/ic_camera_alt_24dp"
+            android:backgroundTint="@color/blue_grey_500"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/new_post_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/new_post_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe shorly your post"
+            android:maxLines="2" />
+
+        <EditText
+            android:id="@+id/new_post_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe your post"
+            android:minLines="6" />
+
+        <Button
+            android:id="@+id/new_post_submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SUBMIT" />
+
+
+    </LinearLayout>
+
+</ScrollView>

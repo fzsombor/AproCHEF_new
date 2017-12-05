@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1051002484006",
+    "firebase_url": "https://aprochef-88.firebaseio.com",
+    "project_id": "aprochef-88",
+    "storage_bucket": "aprochef-88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051002484006:android:41675373c999075f",
+        "android_client_info": {
+          "package_name": "hu.fzsombor.aprochef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051002484006-kuu13oj89n3kq8d3pd5fedu93jb3ikmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.fzsombor.aprochef",
+            "certificate_hash": "31e086ab2a0472c1bd0e1478122d2b8970335d21"
+          }
+        },
+        {
+          "client_id": "1051002484006-6m13aan6c9sldq8ukjldm7024cmtrk1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKdWZJ5ATTemORHtEafwFO-gwXdukUn1w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051002484006-6m13aan6c9sldq8ukjldm7024cmtrk1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

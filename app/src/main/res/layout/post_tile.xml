@@ -14,16 +14,12 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="blue_grey_500">#607D8B</color>
-    <color name="blue_grey_600">#546E7A</color>
-    <color name="blue_grey_700">#455A64</color>
-    <color name="blue_grey_800">#37474F</color>
-    <color name="blue_grey_900">#263238</color>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <color name="black_overlay">#66000000</color>
-    <color name="user_detail_separator">#3a3a3a</color>
-</resources>
+    <ImageView
+        android:id="@+id/post_tile_image"
+        android:layout_width="@dimen/user_detail_post_tile_size"
+        android:layout_height="@dimen/user_detail_post_tile_size" />
+</FrameLayout>
